@@ -1,0 +1,17 @@
+:root {
+  --aura-primary: #9D4EDD;      
+  --aura-secondary: #3B82F6;    
+
+  --aura-positive: #FACC15;     
+  --aura-negative: #EC4899;   
+
+  --aura-bg: #1F1F1F;          
+  --aura-surface: #2C2C2C;      
+  --aura-border: #3F3F3F;        
+  --aura-hover: #6D28D9;         
+
+  --aura-text: #FFFFFF;       
+  --aura-muted: #AAAAAA;         
+
+  --aura-glow: rgba(157, 78, 221, 0.5);  
+}
