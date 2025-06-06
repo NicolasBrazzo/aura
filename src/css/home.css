@@ -1,0 +1,14 @@
+@import "./_var.css";
+
+.main {
+    width: 60%;
+    margin: 0 auto;
+    background-color: var(--aura-surface);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.card-main {
+    margin: 40px 10px;
+}
