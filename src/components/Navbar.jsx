@@ -16,6 +16,9 @@ export const Navbar = () => {
         <Link to={`/login`}>
           <li className={location.pathname === "/login" ? "selected" : ""}>Login</li>
         </Link>
+        <Link to={`/modifyPeopleAura`}>
+          <li className={location.pathname === "/modifyPeopleAura" ? "selected" : ""}>Modifica Aura</li>
+        </Link>
       </ul>
     </nav>
   );

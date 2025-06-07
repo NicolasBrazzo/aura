@@ -1,0 +1,1 @@
+//qui mettiamo le varie richieste che ci saranno da accettare/rifiutare di aggiunta/rimozione aura
