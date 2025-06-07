@@ -3,6 +3,6 @@ const styleP = {
     textAlign: "center"
 }
 
-export const Paragraf = ({ text }) => {
+export const Paragraph = ({ text }) => {
     return <p style={styleP}> {text} </p>
 }
