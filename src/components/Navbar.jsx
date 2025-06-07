@@ -10,11 +10,11 @@ export const Navbar = () => {
         <Link to={`/`}>
           <li className={location.pathname === "/" ? "selected" : ""}>Home</li>
         </Link>
-        <Link to={`/madeby`}>
-          <li className={location.pathname === "/madeby" ? "selected" : ""}>Chi siamo</li>
-        </Link>
         <Link to={`/login`}>
           <li className={location.pathname === "/login" ? "selected" : ""}>Login</li>
+        </Link>
+        <Link to={`/madeby`}>
+          <li className={location.pathname === "/madeby" ? "selected" : ""}>Chi siamo</li>
         </Link>
       </ul>
     </nav>

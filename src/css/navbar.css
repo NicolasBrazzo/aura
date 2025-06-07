@@ -4,9 +4,9 @@ ul {
   display: flex;
   flex-direction: column;
   position: fixed;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  text-align: center;
+  right: 10px;
+  top: 0;
   padding: 10px;
   list-style-type: none;
   background-color: var(--aura-surface);
@@ -17,6 +17,7 @@ li {
     background-color: var(--aura-border);
     padding: 10px;
     transition: all ease 0.3s;
+    width: 70px;
 }
 
 li:hover {
