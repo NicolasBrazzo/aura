@@ -1,0 +1,28 @@
+@import "./_var.css";
+
+ul {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  list-style-type: none;
+  background-color: var(--aura-surface);
+}
+
+li {
+    margin: 10px 0;
+    background-color: var(--aura-border);
+    padding: 10px;
+    transition: all ease 0.3s;
+}
+
+li:hover {
+    background-color: var(--aura-hover);
+}
+
+.selected {
+    background-color: var(--aura-hover);
+}

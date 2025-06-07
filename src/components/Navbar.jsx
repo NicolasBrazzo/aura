@@ -1,26 +1,21 @@
-import { Link } from "react-router-dom";
-
-const styleNavbar = {
-  display: "flex",
-  flexDirection: "column",
-  position: "fixed",
-  right: 0,
-  top: "50%",
-  transform: "translateY(-50%)",
-  padding: "10px",
-  color: "black"
-};
+import { Link, useLocation } from "react-router-dom";
+import "../css/navbar.css";
 
 export const Navbar = () => {
+  const location = useLocation();
+
   return (
     <nav>
-      <ul style={styleNavbar}>
-        <li>
-          <Link to={`/`}>Home</Link>
-        </li>
-        <li>
-          <Link to={`/madeby`}>Chi siamo</Link>
-        </li>
+      <ul>
+        <Link to={`/`}>
+          <li className={location.pathname === "/" ? "selected" : ""}>Home</li>
+        </Link>
+        <Link to={`/madeby`}>
+          <li className={location.pathname === "/madeby" ? "selected" : ""}>Chi siamo</li>
+        </Link>
+        <Link to={`/login`}>
+          <li className={location.pathname === "/login" ? "selected" : ""}>Login</li>
+        </Link>
       </ul>
     </nav>
   );
